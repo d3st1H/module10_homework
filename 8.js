@@ -3,6 +3,6 @@ fruits.set("apple", "green")
 fruits.set("strawberry", "red")
 fruits.set("blueberry", "blue")
 
-fruits.forEach(function(value1, value2){
-    console.log(`Ключ - ${value2}, Значение - ${value1}`);
+fruits.forEach(function(value, key){
+    console.log(`Ключ - ${key}, Значение - ${value}`);
 })
